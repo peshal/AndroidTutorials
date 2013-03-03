@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <EditText 
+        android:id="@+id/urlTextbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Web Service Url"
+    	android:layout_gravity="top"
+        />
+    <Button android:id="@+id/submitUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="right"
+/>
+    
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" 
+        android:layout_gravity="center"/>
+    
+</LinearLayout>
