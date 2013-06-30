@@ -1,6 +1,12 @@
 AndroidTutorials
 ================
-This tutorial covers a lot of Android API's especially focusing on the location sensor(GPS). In addition it also uses
-Apache HTTP Client to POST JSON data via a POST Request using background task aka AsyncTask in android. The application 
-has a edit text field where users can enter their web service url. As soon as the url is posted the app starts sending
-location information of that user to the web service every two minutes.
+Android Tutorials currently has three projects:
+LocationTest: LocationTest uses android Location API's to get the device location and send the location information as
+ a JSON message via HTTP POST request to a URL which can be entered into the edit text field in the app.
+ 
+
+JsonFeedTest: This prpject uses Flickr json feed to populate listviews. The application gets the JSON feed using HTTP GET
+ request to the feed URL and parse the feed into ArrayList.
+ 
+SqlLiteAndLoginForm: This project uses android SQLite API's to CREATE a database and a Table and persist and retrieve data
+from the database to handle user Registration and Login.
