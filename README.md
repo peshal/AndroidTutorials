@@ -1,6 +1,8 @@
 AndroidTutorials
 ================
 Android Tutorials currently has three projects:
+
+
 LocationTest: LocationTest uses android Location API's to get the device location and send the location information as
  a JSON message via HTTP POST request to a URL which can be entered into the edit text field in the app.
  
